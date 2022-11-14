@@ -1,0 +1,79 @@
+.container {
+    width: 390px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: red;
+  }
+  .title {
+    text-align: center;
+    color: #fff;
+  }
+  ul {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  li {
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    position: relative;
+    border-radius: 5px;
+    list-style: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  li:nth-of-type(1) {
+    background-image: url("../image/iphoneX.jpg");
+  }
+  li:nth-of-type(2) {
+    background-image: url("../image/再来一次.jpg");
+  }
+  li:nth-of-type(3) {
+    background-image: url("../image/vip.jpg");
+  }
+  li:nth-of-type(4) {
+    background-image: url("../image/券.jpg");
+  }
+  li:nth-of-type(6) {
+    background-image: url("../image/u盘.jpg");
+  }
+  li:nth-of-type(7) {
+    background-image: url("../image/啤酒.jpg");
+  }
+  li:nth-of-type(8) {
+    background-image: url("../image/谢谢参与.jpg");
+  }
+  li:nth-of-type(9) {
+    background-image: url("../image/ps4.jpg");
+  }
+  #startBtn {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../image/抽奖.jpg");
+  }
+  .active::after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    z-index: 1;
+    opacity: 0.5;
+    background-color: yellow;
+  }
+  #record {
+    background-color: #fff;
+    border-radius: 5px;
+    height: 50px;
+    overflow-y: scroll;
+    padding-left: 10px;
+  }
